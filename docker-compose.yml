@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    
+    build: C:\Users\marwq\Avito_task
+  
+    ports:
+      - "8080:8080"
+
+    restart: always
